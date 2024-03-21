@@ -1,0 +1,16 @@
+{
+  "name": "elastic-cache-sls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy:dev": "sls deploy --region us-east-1 --stage dev"
+  },
+  "dependencies": {
+    "ioredis": "^5.3.2",
+    "redis": "^4.6.13"
+  },
+  "devDependencies": {
+    "serverless": "^3.38.0"
+  }
+}
